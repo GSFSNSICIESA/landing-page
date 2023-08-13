@@ -63,7 +63,65 @@ button{
 }
 .body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 
 }
+.under{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: #3882f6 solid 1px;
+    border-radius: 4px;
+}
+.one,.two,.three,.four{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
 
+.quote{
+    background-color: #e5e7eb;
+    padding: 50px;
+
+}
+.quote>p{
+    /* text-align: center; */
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: light;
+}
+.quote>div{
+    text-align: right;
+}
+
+.signup{
+    display: flex;
+    gap: 50px;
+    margin: 40px 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    color: white;
+    padding: 20px;
+    border-radius: 3px;
+}
+.scnd{
+    border: solid white 1px;
+}
+.footer{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+
+}
